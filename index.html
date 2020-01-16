@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Itunes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "style.css" />
+</head>
+<body id="body" class="content">
+
+    <select class="selectr" id = "artist">
+        <option value = "Smash Mouth" >Smash Mouth</option>
+        <option value = "Leonard Cohen">Leonard Cohen</option>
+        <option value = "The Ramones">The Ramones</option>
+        <option value = "The Beatles">The Beatles</option>
+        <option value = "Bonnie Tyler">Bonnie Tyler</option>
+    </select>
+
+    <select class="selectr" id = "resNo">
+        <option value = "10" >Show 10 Results</option>
+        <option value = "25">Show 25 Results</option>
+        <option value = "50">Show 50 Results</option>
+    </select>
+
+    <button class="myButton" onclick="search()">search</button>
+    <button class="myButton" id="clearB" onclick="clear()">Clear</button>
+    <button class="myButton" id="pain" onclick="suffer()">Enable Spiderman</button>
+    <br>
+    <div class="rez" id="rez"></div>
+    <img src="images/pain.gif" class="hate" id="spidr">
+
+</body>
+</html>
